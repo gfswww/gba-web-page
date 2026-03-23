@@ -1,0 +1,97 @@
+<footer class="bg-dark text-white">
+    <div class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- 關於我們 -->
+            <div>
+                <div class="flex items-center space-x-2 mb-6">
+                    <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                        <span class="text-primary font-bold text-xl">GBA</span>
+                    </div>
+                    <h3 class="text-white font-bold text-lg">大灣區經貿協會</h3>
+                </div>
+                <p class="text-gray-400 mb-6">
+                    促進粵港澳大灣區經濟貿易合作與發展，為企業提供交流合作平台，推動區域經濟一體化建設。
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-accent transition-colors">
+                        <i class="fab fa-weixin text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-accent transition-colors">
+                        <i class="fab fa-weibo text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-accent transition-colors">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-accent transition-colors">
+                        <i class="fab fa-youtube text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 快速鏈接 -->
+            <div>
+                <h3 class="text-lg font-bold mb-6">快速鏈接</h3>
+                <ul class="space-y-3">
+                    <li><a href="#about" class="text-gray-300 hover:text-accent transition-colors">關於我們</a></li>
+                    <li><a href="#news" class="text-gray-300 hover:text-accent transition-colors">最新動態</a></li>
+                    <li><a href="#gallery" class="text-gray-300 hover:text-accent transition-colors">活動照片</a></li>
+                    <li><a href="#partners" class="text-gray-300 hover:text-accent transition-colors">合作夥伴</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-accent transition-colors">聯絡我們</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-accent transition-colors">加入協會</a></li>
+                </ul>
+            </div>
+
+            <!-- 聯絡方式 -->
+            <div>
+                <h3 class="text-lg font-bold mb-6">聯絡方式</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt text-accent mt-1 mr-3"></i>
+                        <span class="text-gray-300">廣東省深圳市福田區福田中心區福華三路卓越世紀中心4號樓25層</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-phone text-accent mr-3"></i>
+                        <span class="text-gray-300">+86 755-8888-8888</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-envelope text-accent mr-3"></i>
+                        <span class="text-gray-300">info@gba-ba.org</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-clock text-accent mr-3"></i>
+                        <span class="text-gray-300">週一至週五: 9:00 - 18:00</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 訂閱通訊 -->
+            <div>
+                <h3 class="text-lg font-bold mb-6">訂閱通訊</h3>
+                <p class="text-gray-300 mb-4">
+                    訂閱我們的電子通訊，獲取最新活動信息和行業動態
+                </p>
+                <form class="subscribe-form">
+                    <div class="flex">
+                        <input type="email" placeholder="您的郵箱地址" class="w-full px-4 py-3 rounded-l-lg bg-white bg-opacity-10 border border-white border-opacity-20 text-white placeholder-gray-300 focus:outline-none focus:border-accent">
+                        <button type="submit" class="bg-accent hover:bg-opacity-80 text-white px-4 py-3 rounded-r-lg transition-colors">
+                            立即訂閱
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <hr class="border-gray-800 my-8">
+
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                &copy; 2025 大灣區經貿協會. 保留所有权利.
+            </p>
+            <div class="flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-accent text-sm transition-colors">隱私政策</a>
+                <a href="#" class="text-gray-400 hover:text-accent text-sm transition-colors">使用條款</a>
+                <a href="#" class="text-gray-400 hover:text-accent text-sm transition-colors">網站地圖</a>
+            </div>
+        </div>
+    </div>
+</footer>
