@@ -1,0 +1,54 @@
+# 大灣區經貿協會網站配置
+title: 大灣區經貿協會
+email: info@gba-ba.org
+description: 促進粵港澳大灣區經濟貿易合作與發展，為企業提供交流合作平台
+baseurl: "" # 網站的子路徑，例如 /blog
+url: "https://yourusername.github.io" # 你的網站 URL
+
+# 作者信息
+author:
+  name: 大灣區經貿協會
+  email: info@gba-ba.org
+
+# 構建設置
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 頁面排除
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - .gitignore
+
+# 集合
+collections:
+  news:
+    output: true
+    permalink: /news/:path/
+  events:
+    output: true
+    permalink: /events/:path/
+
+# 默認前置數據
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "_news"
+    values:
+      layout: "post"
+  - scope:
+      path: "_events"
+    values:
+      layout: "event"
