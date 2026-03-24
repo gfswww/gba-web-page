@@ -3,8 +3,7 @@ title: 大灣區經貿協會
 email: info@gba-ba.org
 description: 促進粵港澳大灣區經濟貿易合作與發展，為企業提供交流合作平台
 baseurl: "" # 網站的子路徑，例如 /blog
-url: "https://ghkmbayarea.com"
-baseurl: ""
+url: "https://yourusername.github.io" # 你的網站 URL
 
 # 作者信息
 author:
